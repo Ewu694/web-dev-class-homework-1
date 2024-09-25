@@ -1,20 +1,56 @@
+body {
+    background-color: black;
+}
 h1 {
     color: darkred;
+    font-weight: bold;
 }
 
 h2 {
     color: darkslategrey;
+    font-weight: bold;
 }
 
+h3 {
+    font-weight: bold;
+}
 div > h3 {
-    color: darkgreen;
+    color: green;
 }
 
-.header {
+.footer {
+    position: sticky;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.footer .contact {
+    flex: 1;
+    text-align: left;
+}
+
+.footer .hobbies {
+    flex: 1;
+    text-align: right;
+}
+
+.footer .about {
+    flex: 1;
+    text-align: center;
+}
+
+.section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh; 
+    background-color: black;
+    color: white;
 }
 
+.header {
+    background-color: white;
+}
