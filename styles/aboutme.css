@@ -1,0 +1,29 @@
+img {
+    float: inline-end;
+    height: 200px;
+    width: 200px;
+    border: 10px solid darkslategray;
+}
+
+.container {
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.white {
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+}
+
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+div.red {
+    color: white;
+}
